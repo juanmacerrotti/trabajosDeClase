@@ -1,0 +1,189 @@
+Info: Nothing to build for CLASEBIBLIOTECAS
+Info: Nothing to build for CLASEBIBLIOTECAS
+21:56:44 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o CLASEBIBLIOTECAS.exe "src\\CLASEBIBLIOTECAS.o" "src\\utn.o" 
+Info: Nothing to build for CLASEBIBLIOTECAS
+21:57:43 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+gcc -o CLASEBIBLIOTECAS.exe "src\\CLASEBIBLIOTECAS.o" "src\\utn.o" 
+Info: Nothing to build for CLASEBIBLIOTECAS
+22:10:44 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+gcc -o CLASEBIBLIOTECAS.exe "src\\CLASEBIBLIOTECAS.o" "src\\utn.o" 
+22:15:56 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:42:13: warning: implicit declaration of function 'utn_getNumeroFloat'; did you mean 'utn_getNumeroFlotante'? [-Wimplicit-function-declaration]
+   42 |  respuesta =utn_getNumeroFloat (&altura,"ingreso numero con coma? \n","Error la edad debe ser desde 0mm a 2 m\n", 0.0,2.00,3);
+      |             ^~~~~~~~~~~~~~~~~~
+      |             utn_getNumeroFlotante
+..\src\CLASEBIBLIOTECAS.c:45:28: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   45 |    printf("la altura es %.2f\n", altura);
+      |                         ~~~^     ~~~~~~
+      |                            |     |
+      |                            |     int
+      |                            double
+      |                         %.2d
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+..\src\CLASEBIBLIOTECAS.c:51:81: error: 'f' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                 ^
+..\src\CLASEBIBLIOTECAS.c:51:81: note: each undeclared identifier is reported only once for each function it appears in
+..\src\CLASEBIBLIOTECAS.c:51:83: error: 'm' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                   ^
+22:16:53 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:42:36: warning: passing argument 1 of 'utn_getNumeroFlotante' from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |  respuesta =utn_getNumeroFlotante (&altura,"ingreso numero con coma? \n","Error la edad debe ser desde 0mm a 2 m\n", 0.0,2.00,3);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+In file included from ..\src\CLASEBIBLIOTECAS.c:13:
+..\src\utn.h:13:35: note: expected 'float *' but argument is of type 'int *'
+   13 | int utn_getNumeroFlotante (float *pResultado, char *mensaje, char *mensajeError, float minimo, float maximo, int reintentos);
+      |                            ~~~~~~~^~~~~~~~~~
+..\src\CLASEBIBLIOTECAS.c:45:26: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   45 |    printf("la altura es %f.2\n", altura);
+      |                         ~^       ~~~~~~
+      |                          |       |
+      |                          double  int
+      |                         %d
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+..\src\CLASEBIBLIOTECAS.c:51:81: error: 'f' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                 ^
+..\src\CLASEBIBLIOTECAS.c:51:81: note: each undeclared identifier is reported only once for each function it appears in
+..\src\CLASEBIBLIOTECAS.c:51:83: error: 'm' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                   ^
+22:17:56 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:42:36: warning: passing argument 1 of 'utn_getNumeroFlotante' from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |  respuesta =utn_getNumeroFlotante (&altura,"ingreso numero con coma? \n","Error la edad debe ser desde 0mm a 2 m\n", 0 , 2.00 ,3);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+In file included from ..\src\CLASEBIBLIOTECAS.c:13:
+..\src\utn.h:13:35: note: expected 'float *' but argument is of type 'int *'
+   13 | int utn_getNumeroFlotante (float *pResultado, char *mensaje, char *mensajeError, float minimo, float maximo, int reintentos);
+      |                            ~~~~~~~^~~~~~~~~~
+..\src\CLASEBIBLIOTECAS.c:45:26: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   45 |    printf("la altura es %f\n", altura);
+      |                         ~^     ~~~~~~
+      |                          |     |
+      |                          |     int
+      |                          double
+      |                         %d
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+..\src\CLASEBIBLIOTECAS.c:51:81: error: 'f' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                 ^
+..\src\CLASEBIBLIOTECAS.c:51:81: note: each undeclared identifier is reported only once for each function it appears in
+..\src\CLASEBIBLIOTECAS.c:51:83: error: 'm' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                   ^
+22:18:18 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:42:36: warning: passing argument 1 of 'utn_getNumeroFlotante' from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |  respuesta =utn_getNumeroFlotante (&altura,"ingreso numero con coma? \n","Error la edad debe ser desde 0mm a 2 m\n", 0 , 2 ,3);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+In file included from ..\src\CLASEBIBLIOTECAS.c:13:
+..\src\utn.h:13:35: note: expected 'float *' but argument is of type 'int *'
+   13 | int utn_getNumeroFlotante (float *pResultado, char *mensaje, char *mensajeError, float minimo, float maximo, int reintentos);
+      |                            ~~~~~~~^~~~~~~~~~
+..\src\CLASEBIBLIOTECAS.c:45:26: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   45 |    printf("la altura es %f\n", altura);
+      |                         ~^     ~~~~~~
+      |                          |     |
+      |                          |     int
+      |                          double
+      |                         %d
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+..\src\CLASEBIBLIOTECAS.c:51:81: error: 'f' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                 ^
+..\src\CLASEBIBLIOTECAS.c:51:81: note: each undeclared identifier is reported only once for each function it appears in
+..\src\CLASEBIBLIOTECAS.c:51:83: error: 'm' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                   ^
+22:19:39 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+..\src\CLASEBIBLIOTECAS.c:51:81: error: 'f' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                 ^
+..\src\CLASEBIBLIOTECAS.c:51:81: note: each undeclared identifier is reported only once for each function it appears in
+..\src\CLASEBIBLIOTECAS.c:51:83: error: 'm' undeclared (first use in this function)
+   51 |   respuesta =utn_getChar (&sexo,"Edad? \n","Error la respuesta debe ser m o f", f,m,2);
+      |                                                                                   ^
+22:28:19 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'utn_getCaracter':
+..\src\utn.c:100:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+  100 |    scanf("%c",&bufferChar);
+      |           ~^  ~~~~~~~~~~~
+      |            |  |
+      |            |  int *
+      |            char *
+      |           %d
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&letra,"Edad? \n","Error la respuesta debe ser A o J", 'A','J',2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+..\src\CLASEBIBLIOTECAS.c:54:33: error: 'sexo' undeclared (first use in this function)
+   54 |     printf("el sexo es  %c \n", sexo);
+      |                                 ^~~~
+..\src\CLASEBIBLIOTECAS.c:54:33: note: each undeclared identifier is reported only once for each function it appears in
+22:29:18 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+..\src\CLASEBIBLIOTECAS.c: In function 'main':
+..\src\CLASEBIBLIOTECAS.c:51:14: warning: implicit declaration of function 'utn_getChar'; did you mean 'utn_getCaracter'? [-Wimplicit-function-declaration]
+   51 |   respuesta =utn_getChar (&letra,"Edad? \n","Error la respuesta debe ser A o J", 'A','J',2);
+      |              ^~~~~~~~~~~
+      |              utn_getCaracter
+gcc -o CLASEBIBLIOTECAS.exe "src\\CLASEBIBLIOTECAS.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\CLASEBIBLIOTECAS.o: in function `main':
+C:\Users\Juan.Juan-PC\trabajosProgramacion\trabajosDeClase\CLASEBIBLIOTECAS\Debug/../src/CLASEBIBLIOTECAS.c:51: undefined reference to `utn_getChar'
+collect2.exe: error: ld returned 1 exit status
+22:29:44 **** Incremental Build of configuration Debug for project CLASEBIBLIOTECAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASEBIBLIOTECAS.o" "..\\src\\CLASEBIBLIOTECAS.c" 
+gcc -o CLASEBIBLIOTECAS.exe "src\\CLASEBIBLIOTECAS.o" "src\\utn.o" 
