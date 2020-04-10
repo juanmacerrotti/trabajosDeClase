@@ -18,8 +18,8 @@ int main(void) {
 	int edad;
 	int respuesta;
 	int peso;
-	char letra;
 	float altura;
+	char letra;
 
 	respuesta =utn_getNumero (&edad,"Edad? \n","Error la edad debe ser desde 0 a 199\n", 0,199,2);
 	if (respuesta ==0)
@@ -39,19 +39,19 @@ int main(void) {
 			printf("ERROR\n");
 		}
 
-	respuesta =utn_getNumeroFlotante (&altura,"ingreso numero con coma? \n","Error la edad debe ser desde 0mm a 2 m\n", 0 , 2 ,3);
-		if (respuesta ==0)
+	respuesta =utn_getNumeroFlotante (&altura,"ingrese la altura? \n","Error la altura debe ser desde 0mm a 2 m \n", 0 , 2 ,3);
+	if (respuesta ==0)
 		{
-			printf("la altura es %f\n", altura);
+			printf("la altura es %f \n", altura);
 		}
 		else{
 			printf("ERROR\n");
 		}
 
-		respuesta =utn_getCaracter (&letra,"Edad? \n","Error la respuesta debe ser A o J", 'A','J',2);
+		respuesta =utn_getCaracter (&letra,"letra? \n","Error la respuesta debe ser A o J \n", 'A','J',2);
 			if (respuesta ==0)
 			{
-				printf("el sexo es  %c \n", letra);
+				printf("La letra es es  %c \n", letra);
 			}
 			else{
 				printf("ERROR\n");

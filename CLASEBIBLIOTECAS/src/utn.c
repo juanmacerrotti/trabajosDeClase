@@ -87,7 +87,7 @@ float utn_getNumeroFlotante (float *pResultado, char *mensaje, char *mensajeErro
 int utn_getCaracter(char* pResultado, char* mensaje, char* mensajeError,int minimo, int maximo, int reintentos)
 {
 int retorno=-1;
-int bufferChar; //interactuamos con el usuario
+char bufferChar; //interactuamos con el usuario
 
 
 
