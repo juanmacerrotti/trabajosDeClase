@@ -1,302 +1,168 @@
-Info: Nothing to build for TPnumero1
-15:34:30 **** Incremental Build of configuration Debug for project TPnumero1 ****
+14:59:46 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:38:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
-   38 |  scanf("%f",&A);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          float *
-      |         %lf
-..\src\TPnumero1.c:41:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
-   41 |  scanf("%f",&B);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          float *
-      |         %lf
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+Info: Nothing to build for Ejercicio2clase7
+15:12:09 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-15:34:57 **** Incremental Build of configuration Debug for project TPnumero1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+Info: Nothing to build for Ejercicio2clase7
+15:12:59 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:38:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'double *' [-Wformat=]
-   38 |  scanf("%d",&A);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          int *
-      |         %le
-..\src\TPnumero1.c:41:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'double *' [-Wformat=]
-   41 |  scanf("%d",&B);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          int *
-      |         %le
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TPnumero1.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'main':
+..\src\Ejercicio2clase7.c:32:10: warning: too many arguments for format [-Wformat-extra-args]
+   32 |   printf("respuesta:", respuesta);
+      |          ^~~~~~~~~~~~
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejercicio2clase7.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-15:35:03 **** Incremental Build of configuration Debug for project TPnumero1 ****
+15:13:24 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-15:36:09 **** Incremental Build of configuration Debug for project TPnumero1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+Info: Nothing to build for Ejercicio2clase7
+15:15:18 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:38:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'double *' [-Wformat=]
-   38 |  scanf("%d",&A);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          int *
-      |         %le
-..\src\TPnumero1.c:41:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'double *' [-Wformat=]
-   41 |  scanf("%d",&B);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          int *
-      |         %le
-..\src\TPnumero1.c:77:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   77 |    printf("\nel factorial de A es %d, no se puede calcular el factorial de B.",factorialA);
-      |                                   ~^                                           ~~~~~~~~~~
-      |                                    |                                           |
-      |                                    int                                         double
-      |                                   %f
-..\src\TPnumero1.c:82:38: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   82 |      printf("\nel factorial de A es %d, no se puede calcular el factorial de B.",factorialB);
-      |                                     ~^                                           ~~~~~~~~~~
-      |                                      |                                           |
-      |                                      int                                         double
-      |                                     %f
-..\src\TPnumero1.c:88:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   88 |    printf("\nel factorial de A es %d y el factorial de B es %d",factorialA,factorialB);
-      |                                   ~^                            ~~~~~~~~~~
-      |                                    |                            |
-      |                                    int                          double
-      |                                   %f
-..\src\TPnumero1.c:88:62: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
-   88 |    printf("\nel factorial de A es %d y el factorial de B es %d",factorialA,factorialB);
-      |                                                             ~^             ~~~~~~~~~~
-      |                                                              |             |
-      |                                                              int           double
-      |                                                             %f
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:57:8: error: conflicting types for 'sacarFactorial'
-   57 | double sacarFactorial (double operador, float *direccionDelResultado)  //FUNCION PARA SACAR FACTORIALES
-      |        ^~~~~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:15:5: note: previous declaration of 'sacarFactorial' was here
-   15 | int sacarFactorial (double operador, float *direccionDelResultado);
-      |     ^~~~~~~~~~~~~~
-15:36:52 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:38:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
-   38 |  scanf("%f",&A);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          float *
-      |         %lf
-..\src\TPnumero1.c:41:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
-   41 |  scanf("%f",&B);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          float *
-      |         %lf
-..\src\TPnumero1.c:77:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   77 |    printf("\nel factorial de A es %d, no se puede calcular el factorial de B.",factorialA);
-      |                                   ~^                                           ~~~~~~~~~~
-      |                                    |                                           |
-      |                                    int                                         double
-      |                                   %f
-..\src\TPnumero1.c:82:38: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   82 |      printf("\nel factorial de A es %d, no se puede calcular el factorial de B.",factorialB);
-      |                                     ~^                                           ~~~~~~~~~~
-      |                                      |                                           |
-      |                                      int                                         double
-      |                                     %f
-..\src\TPnumero1.c:88:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   88 |    printf("\nel factorial de A es %d y el factorial de B es %d",factorialA,factorialB);
-      |                                   ~^                            ~~~~~~~~~~
-      |                                    |                            |
-      |                                    int                          double
-      |                                   %f
-..\src\TPnumero1.c:88:62: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
-   88 |    printf("\nel factorial de A es %d y el factorial de B es %d",factorialA,factorialB);
-      |                                                             ~^             ~~~~~~~~~~
-      |                                                              |             |
-      |                                                              int           double
-      |                                                             %f
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-15:41:58 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:38:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
-   38 |  scanf("%f",&A);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          float *
-      |         %lf
-..\src\TPnumero1.c:41:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
-   41 |  scanf("%f",&B);
-      |         ~^  ~~
-      |          |  |
-      |          |  double *
-      |          float *
-      |         %lf
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-15:43:35 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:38:10: warning: unknown conversion type character '.' in format [-Wformat=]
-   38 |  scanf("%.2f",&A);
-      |          ^
-..\src\TPnumero1.c:38:8: warning: too many arguments for format [-Wformat-extra-args]
-   38 |  scanf("%.2f",&A);
-      |        ^~~~~~
-..\src\TPnumero1.c:41:10: warning: unknown conversion type character '.' in format [-Wformat=]
-   41 |  scanf("%.2f",&B);
-      |          ^
-..\src\TPnumero1.c:41:8: warning: too many arguments for format [-Wformat-extra-args]
-   41 |  scanf("%.2f",&B);
-      |        ^~~~~~
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-15:46:37 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:39:5: error: conflicting types for 'divisionDeDosNumeros'
-   39 | int divisionDeDosNumeros (int operador1, double operador2, float *direccionDelresultado)    //FUNCION DE DIVIDIR
-      |     ^~~~~~~~~~~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:14:5: note: previous declaration of 'divisionDeDosNumeros' was here
-   14 | int divisionDeDosNumeros (int operador1, int operador2, float *direccionDelresultado);
-      |     ^~~~~~~~~~~~~~~~~~~~
-15:47:05 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-16:00:53 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:49:2: warning: 'operacion' is used uninitialized in this function [-Wuninitialized]
-   49 |  switch (operacion)
-      |  ^~~~~~
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-16:03:47 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-16:04:50 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-16:13:12 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-..\src\TPnumero1.c: In function 'main':
-..\src\TPnumero1.c:64:3: error: duplicate case value
-   64 |   case 'b':
-      |   ^~~~
-..\src\TPnumero1.c:59:3: note: previously used here
-   59 |   case 'b':
-      |   ^~~~
-16:13:35 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-16:15:00 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TPnumero1.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'main':
+..\src\Ejercicio2clase7.c:39:36: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+   39 |     printf("Las temperaturas son: %f", ArrayTemperaturas);
+      |                                   ~^   ~~~~~~~~~~~~~~~~~
+      |                                    |   |
+      |                                    |   float *
+      |                                    double
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejercicio2clase7.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-16:15:07 **** Incremental Build of configuration Debug for project TPnumero1 ****
+15:15:23 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-16:15:30 **** Incremental Build of configuration Debug for project TPnumero1 ****
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+Info: Nothing to build for Ejercicio2clase7
+Info: Nothing to build for Ejercicio2clase7
+15:17:54 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-16:24:56 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-16:25:40 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-16:27:12 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-16:30:11 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-16:34:16 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-16:34:48 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-16:50:20 **** Incremental Build of configuration Debug for project TPnumero1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'utn_getCaracter':
-..\src\utn.c:51:4: warning: implicit declaration of function 'fpurge' [-Wimplicit-function-declaration]
-   51 |    fpurge(stdin);
-      |    ^~~~~~
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `utn_getCaracter':
-C:\Users\Juan.Juan-PC\trabajosProgramacion\trabajosDeClase\TPnumero1\Debug/../src/utn.c:51: undefined reference to `fpurge'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'main':
+..\src\Ejercicio2clase7.c:40:36: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+   40 |     printf("Las temperaturas son: %f", ArrayTemperaturas);
+      |                                   ~^   ~~~~~~~~~~~~~~~~~
+      |                                    |   |
+      |                                    |   float *
+      |                                    double
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejercicio2clase7.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-16:50:56 **** Incremental Build of configuration Debug for project TPnumero1 ****
+15:17:59 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
-17:07:04 **** Rebuild of configuration Debug for project TPnumero1 ****
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:18:21 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TPnumero1.o" "..\\src\\TPnumero1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'main':
+..\src\Ejercicio2clase7.c:40:36: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+   40 |     printf("Las temperaturas son: %f", ArrayTemperaturas);
+      |                                   ~^   ~~~~~~~~~~~~~~~~~
+      |                                    |   |
+      |                                    |   float *
+      |                                    double
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:20:30 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+Info: Nothing to build for Ejercicio2clase7
+15:21:59 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o TPnumero1.exe "src\\TPnumero1.o" "src\\utn.o" 
-Info: Nothing to build for TPnumero1
-Info: Nothing to build for TPnumero1
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:33:30 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'main':
+..\src\Ejercicio2clase7.c:42:6: warning: implicit declaration of function 'cargarTemperatura' [-Wimplicit-function-declaration]
+   42 |      cargarTemperatura (ArrayTemperaturas, CANTIDADDEDIDAS);
+      |      ^~~~~~~~~~~~~~~~~
+..\src\Ejercicio2clase7.c: In function 'cargarTemperatura':
+..\src\Ejercicio2clase7.c:64:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   64 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                             ^
+..\src\Ejercicio2clase7.c:64:53: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   64 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                     ^
+..\src\Ejercicio2clase7.c:64:87: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   64 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                                                       ^
+..\src\Ejercicio2clase7.c:64:92: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   64 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                                                            ^
+..\src\Ejercicio2clase7.c:64:96: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   64 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                                                                ^
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:34:29 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'cargarTemperatura':
+..\src\Ejercicio2clase7.c:65:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                             ^
+..\src\Ejercicio2clase7.c:65:53: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                     ^
+..\src\Ejercicio2clase7.c:65:87: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                                                       ^
+..\src\Ejercicio2clase7.c:65:92: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                                                            ^
+..\src\Ejercicio2clase7.c:65:96: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.", -50, 70, 2);
+      |                                                                                                ^
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:35:07 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+..\src\Ejercicio2clase7.c: In function 'cargarTemperatura':
+..\src\Ejercicio2clase7.c:65:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.",-50,70,2);
+      |                             ^
+..\src\Ejercicio2clase7.c:65:53: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.",-50,70,2);
+      |                                                     ^
+..\src\Ejercicio2clase7.c:65:87: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.",-50,70,2);
+      |                                                                                       ^
+..\src\Ejercicio2clase7.c:65:91: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.",-50,70,2);
+      |                                                                                           ^
+..\src\Ejercicio2clase7.c:65:94: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |    respuesta = (&temperatura,"\nIngrese temperatura", "\nError no es una temperatura.",-50,70,2);
+      |                                                                                              ^
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:36:10 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+Info: Nothing to build for Ejercicio2clase7
+15:38:36 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:44:57 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:47:48 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
+15:54:36 **** Incremental Build of configuration Debug for project Ejercicio2clase7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio2clase7.o" "..\\src\\Ejercicio2clase7.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Ejercicio2clase7.exe "src\\Ejercicio2clase7.o" "src\\utn.o" 
